@@ -33,16 +33,28 @@ export default function App() {
             <img src="/vtseva.png" alt="Experience 1" style={{ height: '100px', objectFit: 'contain' }} />
             <h3>VT Seva Detroit Youth Board</h3>
             <span className="competency">Leadership</span>
+            <p><strong>TLDR:</strong> National Volunteer Relations Coordinator managing volunteer engagement, leading orientations, and launching career development initiatives.</p>
             <p>Since joining VT Seva in 2016, I've grown from a youth volunteer to my current role as the National Volunteer Relations Coordinator. In this position, I oversee volunteer engagement across the U.S., ensuring individuals are equipped to make meaningful contributions. I organize and lead orientation sessions to prepare new volunteers, addressing their concerns and helping them navigate their roles. Additionally, I manage volunteer issues, ensuring smooth communication between volunteers and leadership. Recently, I launched the Career Compass Webinar Series, a virtual initiative that connects students with industry professionals to provide insights into various career paths. Through interviews and Q&A sessions, this series has helped hundreds of students explore career opportunities and expand their professional networks. This role has enhanced my leadership skills, allowing me to mentor volunteers, coordinate national initiatives, and expand VT Seva's impact.</p>
+            <div className="photo-gallery">
+              <img src="/vtseva-gallery1.jpg" alt="VT Seva Walkathon" />
+              <img src="/vtseva-gallery2.jpg" alt="Career Compass Webinar" />
+              <img src="/vtseva-gallery3.png" alt="AIML Summer Camp" />
+            </div>
           </div>
 
           <div className="experience-card">
             <img src="/northropgrumman.png" alt="Experience 2" style={{ height: '100px', objectFit: 'contain' }} />
             <h3>Northrop Grumman Internship</h3>
             <span className="competency">Innovation</span>
-            <p>During my internship at Northrop Grumman, I worked on two distinct teams, each requiring innovative thinking to address complex challenges. On the DevOps continuous integration team, I managed customer support tickets, ensuring clear communication with submitters to identify pain points and develop effective solutions. I also helped improve the CI/CD pipeline by streamlining code scanning processes using Jenkins.
+            <p><strong>TLDR:</strong> Worked on DevOps CI team and led R&D project developing an LLM-powered desktop application for generating Python unit tests.</p>
+            <p>During my internship at Northrop Grumman, I worked on two distinct teams, each requiring innovative thinking to address complex challenges. On the DevOps continuous integration team, I managed customer support tickets, ensuring clear communication with submitters to identify pain points and develop effective solutions. I also helped improve the CI/CD pipeline by streamlining code scanning processes using Jenkins.</p>
             <p>In my R&D role, I took the lead in developing a desktop application that leverages LLMs to generate unit tests for Python code. I built a Node.js backend and React/Electron frontend, designing the app with user feedback in mind to ensure practical functionality. To enhance the tool's capabilities, I integrated features like Jenkins interoperability for code scanning during builds and created Python scripts to analyze code dependencies. To further improve testing efficiency, I designed a genetic algorithm to identify code branches and achieve 100% test coverage. This experience sharpened my technical skills and taught me how to translate abstract ideas into practical solutions by collaborating with developers across the company.</p>
-            <p>Through these experiences, I've strengthened my leadership, problem-solving, and technical skills, preparing me to tackle complex challenges in future roles.</p></p>
+            <p>Through these experiences, I've strengthened my leadership, problem-solving, and technical skills, preparing me to tackle complex challenges in future roles.</p>
+            <div className="photo-gallery">
+              <img src="/ng-gallery1.jpg" alt="Northrop Grumman office" />
+              <img src="/ng-gallery2.jpg" alt="DevOps team" />
+              <img src="/ng-gallery3.jpg" alt="LLM application demo" />
+            </div>
           </div>
         </div>
       </section>

@@ -28,11 +28,14 @@ body {
   margin-bottom: 10px;
 }
 
-.hero h2, .hero h3 {
+.hero h2,
+.hero h3 {
   margin: 5px 0;
 }
 
-.about-me, .experiences, .honors-plan {
+.about-me,
+.experiences,
+.honors-plan {
   background-color: #fff;
   padding: 20px;
   border-radius: 12px;
@@ -102,6 +105,25 @@ body {
   border-radius: 15px;
   display: inline-block;
   margin-top: 10px;
+}
+
+.photo-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.photo-gallery img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 6px;
+  transition: transform 0.3s ease;
+}
+
+.photo-gallery img:hover {
+  transform: scale(1.05);
 }
 
 .smart-goals p {
